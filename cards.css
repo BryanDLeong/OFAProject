@@ -1,0 +1,47 @@
+body{
+  background-color:skyblue;
+}
+
+h1{
+  font-size:48px;
+  text-align: center;
+}
+
+h2{
+
+}
+
+section{
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.info{
+  height:auto;
+  width:95%;
+  margin:40px;
+  padding:10px;
+  background-color: wheat;
+  border-radius: 10px;
+}
+
+.set{
+  height:600px;
+  width:300px;
+  margin:5px;
+  padding: 10px;
+  text-align:center;  
+}
+
+.set img{
+  height:85%;
+}
+
+.set:hover img{
+  font-size:32px;
+  height:100%;
+}
+
+.resize{
+  font-size: 14px;
+}
